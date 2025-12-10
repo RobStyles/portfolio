@@ -35,8 +35,6 @@
     margin-left: 15%;
     margin-right: 15%;
     display:grid;
-    /* grid-template-columns: auto, auto;
-    grid-template-rows: auto; */
     grid-template-areas: 
     ". taskflow budgetbuddy recipe"
     ". traveltrail fittrack mediavault";
@@ -48,45 +46,58 @@
 
 #s-taskflow {
     grid-area: taskflow;
-    width: 300px;
+    width: 250px;
 }
 
 #s-budgetbuddy {
     grid-area: budgetbuddy;
-    width: 300px;
+    width: 250px;
 }
 
 #s-recipe {
     grid-area: recipe;
-    width: 300px;
+    width: 250px;
 }
 
 #s-traveltrail {
     grid-area: traveltrail;
-    width: 300px;
+    width: 250px;
 }
 
 #s-fittrack {
     grid-area: fittrack;
-    width: 300px;
+    width: 250px;
 }
 
 #s-mediavault {
     grid-area: mediavault;
-    width: 300px;
+    width: 250px;
 }
 
 #p-programming_samples {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-areas: 
+    ". math insult";
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #p-programming_samples img {
-    width: 500px;
+    width: 300px;
+}
+
+#s-math_game {
+    grid-area: math;
+    width: 300px;
+}
+
+#s-insult_generator {
+    grid-area: insult;
+    width: 300px;
 }
 
 #p-resume {
