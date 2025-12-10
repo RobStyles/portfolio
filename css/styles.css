@@ -25,7 +25,7 @@
 }
 
 #p-home {
-    font-size: 2rem;
+    justify-self: center;
 }
 
 #p-web_apps {
@@ -82,7 +82,8 @@
     margin-right: 15%;
     display: grid;
     grid-template-areas: 
-    ". math insult";
+    ". math insult"
+    ". . password";
     
 }
 
@@ -97,6 +98,11 @@
 
 #s-insult_generator {
     grid-area: insult;
+    width: 300px;
+}
+
+#s-password_cracker {
+    grid-area: password;
     width: 300px;
 }
 
