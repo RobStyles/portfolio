@@ -1,0 +1,38 @@
+.g-base {
+    background-color: gray;
+    margin: 0;
+}
+
+.g-header {
+    background-color: darkgray;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.g-header a {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    border: gray solid;
+}
+
+#selected {
+    background-color: grey;
+}
+
+#p-home {
+    font-size: 2rem;
+}
+
+#p-web_apps {
+
+}
+
+#p-programming_samples {
+
+}
+
+#p-resume {
+    padding-left: 20px;
+}
